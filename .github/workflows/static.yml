@@ -1,7 +1,9 @@
 name: Deploy static content to Pages
 on:
   push:
-    branches: ["master"]
+    branches: 
+      - "master"
+      - "jgreben-dev"
 
   workflow_dispatch:
 
@@ -40,6 +42,8 @@ jobs:
       
       - name: Add and Commit packaged charts and index
         run: |
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name "GitHub Actions"
           git add packaged_charts
           git add index.yaml
           git commit -m "Adding packaged charts and updated index"
