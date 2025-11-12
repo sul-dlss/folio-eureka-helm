@@ -1,4 +1,4 @@
-name: Deploy static content to Pages
+name: Sync and Deploy content to Pages
 on:
   push:
     branches: ["master"]
@@ -46,6 +46,17 @@ jobs:
           git add index.yaml
           git commit -m "Adding packaged charts and updated index"
       
+      - name: Add Upstream Remote
+        run: |
+          git remote add upstream https://github.com/folio-org/folio-helm-v2.git
+      
+      - name: Fetch Upstream Changes
+        run: git fetch upstream
+      
+      - name: Merge Upstream into Fork
+        run: |
+          git merge upstream/master --allow-unrelated-histories
+
       - name: Push packaged charts and index
         uses: ad-m/github-push-action@master
         with:
