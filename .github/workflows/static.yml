@@ -27,6 +27,9 @@ jobs:
       - name: Package Helm Charts
         run: |
           for d in ./charts/*/ ; do
+            if [ "$d" == "./charts/platform-core/" ]; then
+              continue
+            fi
             echo "Building and packaging chart in directory: $d"
             helm dependency build "$d"
             helm package "$d" -d packaged_charts
