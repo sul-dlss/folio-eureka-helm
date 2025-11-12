@@ -36,7 +36,7 @@ jobs:
           done
       
       - name: Index charts
-        run: helm repo index . --url https://sul-dlss.github.io/folio-k8s/
+        run: helm repo index . --url https://sul-dlss.github.io/${{ github.event.repository.name }}"/
       
       - name: Add and Commit packaged charts and index
         run: |
