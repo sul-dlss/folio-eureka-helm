@@ -1,9 +1,7 @@
 name: Deploy static content to Pages
 on:
   push:
-    branches: 
-      - "master"
-      - "jgreben-dev"
+    branches: ["master"]
 
   workflow_dispatch:
 
