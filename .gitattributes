@@ -1,2 +1,2 @@
-Jenkinsfile merge=ours
+.gitignore merge=ours
 charts/folio-common/templates/_deployment.tpl merge=ours
