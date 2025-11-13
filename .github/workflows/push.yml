@@ -38,6 +38,10 @@ jobs:
           git config merge.ours.driver true
           git merge upstream/master --allow-unrelated-histories
 
+      - name: Show Diff
+        run: |
+           for f in `cat .gitattributes | cut -d' ' -f1 `; do git diff upstream/master $f; done
+
       - name: Package Helm Charts
         run: |
           for d in ./charts/*/ ; do
