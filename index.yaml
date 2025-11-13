@@ -2,9 +2,9 @@ apiVersion: v1
 entries:
   common:
   - apiVersion: v2
-    created: "2025-11-12T23:30:26.132826566Z"
+    created: "2025-11-13T00:05:28.184623351Z"
     description: A Helm chart for Kubernetes
-    digest: f3174613231266557d8d306fba1068e080e678183a94ba2f2b8be7e59aa12818
+    digest: a72630e7a5e1c66a7043f1b6fcabe4ad9eb04efa4b28c7a472f4b305224f247b
     name: common
     type: library
     urls:
@@ -13,13 +13,13 @@ entries:
   edge-caiasoft:
   - apiVersion: v2
     appVersion: 2.1.0
-    created: "2025-11-12T23:30:26.133735076Z"
+    created: "2025-11-13T00:05:28.185563931Z"
     dependencies:
     - name: folio-common
       repository: file://../folio-common
       version: ~0.2.0
     description: A Helm chart for Kubernetes edge-caiasoft deployment
-    digest: 64100b5346f54d9706f4021e1a8e357a929d744105daf76c2ea65b14e55dc223
+    digest: 0c7877451aea0791cf1861c2e70e522d0f5ad8591cc8663e4f9ce3b0b3ad6c9d
     name: edge-caiasoft
     type: application
     urls:
@@ -28,13 +28,13 @@ entries:
   edge-connexion:
   - apiVersion: v2
     appVersion: 1.1.1
-    created: "2025-11-12T23:30:26.134619292Z"
+    created: "2025-11-13T00:05:28.18642871Z"
     dependencies:
     - name: folio-common
       repository: file://../folio-common
       version: ~0.2.0
     description: A Helm chart for Kubernetes edge-connexion deployment
-    digest: 42dc37e7057f4396f0c410a7238358f6b4418326492e8844b9c6543016551f10
+    digest: 8c2184cb341748c5939a117afbf636d2554a177d4b575a0aa7830396d9001b9c
     name: edge-connexion
     type: application
     urls:
@@ -43,13 +43,13 @@ entries:
   edge-courses:
   - apiVersion: v2
     appVersion: 1.3.0
-    created: "2025-11-12T23:30:26.135414401Z"
+    created: "2025-11-13T00:05:28.187217708Z"
     dependencies:
     - name: folio-common
       repository: file://../folio-common
       version: ~0.2.0
     description: A Helm chart for Kubernetes edge-courses deployment
-    digest: 2c26afeff41e50844da8dbe52ae1751af96ddd6bfa5b2c8026c3a1b820394f02
+    digest: 6bf07cbe16402281d97939c697962f56364b066321f42e3c9636fb8cc5d15989
     name: edge-courses
     type: application
     urls:
@@ -58,13 +58,13 @@ entries:
   edge-dcb:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-11-12T23:30:26.13622034Z"
+    created: "2025-11-13T00:05:28.189090917Z"
     dependencies:
     - name: folio-common
       repository: file://../folio-common
       version: ~0.2.0
     description: A Helm chart for Kubernetes
-    digest: 8434047237d618488e4528e85e4ad4b864099f6ef31718fd47e0d9996a1a23f1
+    digest: 89aeac04da8930d45a4a207b0b0bba365a369ae67b4f27b0f992179acc91cd7f
     name: edge-dcb
     type: application
     urls:
@@ -73,13 +73,13 @@ entries:
   edge-dematic:
   - apiVersion: v2
     appVersion: 2.1.1
-    created: "2025-11-12T23:30:26.137785181Z"
+    created: "2025-11-13T00:05:28.190079015Z"
     dependencies:
     - name: folio-common
       repository: file://../folio-common
       version: ~0.2.0
     description: A Helm chart for Kubernetes edge-dematic deployment
-    digest: e4e06385d736855cb3b9440117544f63118af3a2c583026320576683623a6c3f
+    digest: b3718b750602525a8bb5c2d4684d40eac6febb94afddc202651c5abdf9e4edef
     name: edge-dematic
     type: application
     urls:
@@ -88,13 +88,13 @@ entries:
   edge-erm:
   - apiVersion: v2
     appVersion: 1.3.0
-    created: "2025-11-12T23:30:26.138603344Z"
+    created: "2025-11-13T00:05:28.190888171Z"
     dependencies:
     - name: folio-common
       repository: file://../folio-common
       version: ~0.2.0
     description: A Helm chart for Kubernetes edge-erm deployment
-    digest: 0b3c3ef4dbb7e1d3501c6d96fa6b04dc9eb077ce4fa2b8cd03f72711fe3e9ad5
+    digest: 2d762ce52dd1b798401b009cb97fa0466830cce5ac66fbb31257fa7fa77ea6e9
     name: edge-erm
     type: application
     urls:
@@ -103,13 +103,13 @@ entries:
   edge-fqm:
   - apiVersion: v2
     appVersion: 1.0.1
-    created: "2025-11-12T23:30:26.139410605Z"
+    created: "2025-11-13T00:05:28.191652102Z"
     dependencies:
     - name: folio-common
       repository: file://../folio-common
       version: ~0.2.0
     description: A Helm chart for Kubernetes edge-fqm deployment
-    digest: e5dbb11a6797816813b14c8aa93eedac6f73394281427cf37dfc4b59a038ce4c
+    digest: 0fdd800ad7b83cb9c4f67d7347d002699f8fd798d38cbf68488fd96b119bc890
     name: edge-fqm
     type: application
     urls:
@@ -118,13 +118,13 @@ entries:
   edge-inn-reach:
   - apiVersion: v2
     appVersion: 3.1.0
-    created: "2025-11-12T23:30:26.140166141Z"
+    created: "2025-11-13T00:05:28.192447942Z"
     dependencies:
     - name: folio-common
       repository: file://../folio-common
       version: ~0.2.0
     description: A Helm chart for Kubernetes edge-inn-reach deployment
-    digest: 0776f927164b26df3fb78b738a7b296d9d5c5603bdc586915404564e040ee247
+    digest: 36c9789aa205a909420bccf5d1db16cc5dd84a2c3b3b15409795b4860d02e043
     name: edge-inn-reach
     type: application
     urls:
@@ -133,13 +133,13 @@ entries:
   edge-inventory:
   - apiVersion: v2
     appVersion: 0.0.1
-    created: "2025-11-12T23:30:26.140963154Z"
+    created: "2025-11-13T00:05:28.19324734Z"
     dependencies:
     - name: folio-common
       repository: file://../folio-common
       version: ~0.2.0
     description: A Helm chart for Kubernetes edge-inventory deployment
-    digest: a584bcee307da702e8f3bdf2ed03ce437ec82ecf5f40e3a3867d4b3d5e3d39da
+    digest: bfc1386a1a621f708341cc12e805757f4f1bdb7fd0bd99da465d61294a691a28
     name: edge-inventory
     type: application
     urls:
@@ -148,13 +148,13 @@ entries:
   edge-ncip:
   - apiVersion: v2
     appVersion: 1.9.2
-    created: "2025-11-12T23:30:26.14174579Z"
+    created: "2025-11-13T00:05:28.194046857Z"
     dependencies:
     - name: folio-common
       repository: file://../folio-common
       version: ~0.2.0
     description: A Helm chart for Kubernetes edge-ncip deployment
-    digest: 097249d861fa7eac667d30b1d0787b6ab38bae5c4262ce0c987b93361693f9e6
+    digest: bde8f4b75217161dcee479ad7d1a8ec2fe2a03e9c0e1c07ff2b2c219cfd38ea1
     name: edge-ncip
     type: application
     urls:
@@ -163,13 +163,13 @@ entries:
   edge-oai-pmh:
   - apiVersion: v2
     appVersion: 2.7.2
-    created: "2025-11-12T23:30:26.142528496Z"
+    created: "2025-11-13T00:05:28.194867033Z"
     dependencies:
     - name: folio-common
       repository: file://../folio-common
       version: ~0.2.0
     description: A Helm chart for Kubernetes edge-oai-pmh deployment
-    digest: 3be3c8abd1652a3c9e1dcef9b0484090db58d4f2e649b965d7939f36841fd8ca
+    digest: f8b118bbe79049278d2a481b5b416c8ffbac36cdf5db5f36a4c26ba74a1aeb16
     name: edge-oai-pmh
     type: application
     urls:
@@ -178,13 +178,13 @@ entries:
   edge-orders:
   - apiVersion: v2
     appVersion: 2.9.1
-    created: "2025-11-12T23:30:26.143325278Z"
+    created: "2025-11-13T00:05:28.19658803Z"
     dependencies:
     - name: folio-common
       repository: file://../folio-common
       version: ~0.2.0
     description: A Helm chart for Kubernetes edge-orders deployment
-    digest: 81b97c96e2a5b82ba7071c38b137a21ae3ee1854073a0297c40ec944c58a7b42
+    digest: 1d351a04fe583b47c3e42d82b23cf7a2cbe3c5896094640649827c55c7e61bea
     name: edge-orders
     type: application
     urls:
@@ -193,13 +193,13 @@ entries:
   edge-patron:
   - apiVersion: v2
     appVersion: 5.0.1
-    created: "2025-11-12T23:30:26.145082026Z"
+    created: "2025-11-13T00:05:28.197446978Z"
     dependencies:
     - name: folio-common
       repository: file://../folio-common
       version: ~0.2.0
     description: A Helm chart for Kubernetes edge-patron deployment
-    digest: 575161327da25facfa08f7dbe2d708e0602c5c8f280827a01a5b4874cee71b17
+    digest: 0d2463fd096f0e8f83be23642e946c8a1bc45137f6c697d845a731228bdb3331
     name: edge-patron
     type: application
     urls:
@@ -208,13 +208,13 @@ entries:
   edge-rtac:
   - apiVersion: v2
     appVersion: 2.6.2
-    created: "2025-11-12T23:30:26.145867628Z"
+    created: "2025-11-13T00:05:28.198239312Z"
     dependencies:
     - name: folio-common
       repository: file://../folio-common
       version: ~0.2.0
     description: A Helm chart for Kubernetes edge-rtac deployment
-    digest: 2c7a51737a663c61b288486ee35d4668b23b5e169fad1b7f49d6ba0389ba16a7
+    digest: de6b622438635bdf3b9aeb0a0526c63feb3ed1abe59e73b2ca31734a5942c922
     name: edge-rtac
     type: application
     urls:
@@ -223,13 +223,13 @@ entries:
   edge-sftp:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-11-12T23:30:26.146435274Z"
+    created: "2025-11-13T00:05:28.198741456Z"
     dependencies:
     - name: common
       repository: file://../common
       version: ~0.1.0
     description: A Helm chart for Kubernetes
-    digest: 3f608e04f5210e4c6611f599c0662b2cdacb67459bdc45a62677e9a4ef8ab655
+    digest: 819d9491bbe2a69b55c7aaad442ef201b0de79af8d35608e1a76c606ff4ea25a
     name: edge-sftp
     type: application
     urls:
@@ -238,13 +238,13 @@ entries:
   edge-sip2:
   - apiVersion: v2
     appVersion: 3.1.1
-    created: "2025-11-12T23:30:26.147261381Z"
+    created: "2025-11-13T00:05:28.199554168Z"
     dependencies:
     - name: folio-common
       repository: file://../folio-common
       version: ~0.2.0
     description: A Helm chart for Kubernetes edge-sip2 deployment
-    digest: b119d7dce72743806b8468637bc7c104b058effaf1c32df7100b4f047534731d
+    digest: 9822dac691c60bb5a95f19cce2cd626fa3acf22e00777b4673b0a10e30fe1284
     name: edge-sip2
     type: application
     urls:
@@ -253,13 +253,13 @@ entries:
   edge-users:
   - apiVersion: v2
     appVersion: 0.0.1
-    created: "2025-11-12T23:30:26.147992351Z"
+    created: "2025-11-13T00:05:28.200314412Z"
     dependencies:
     - name: folio-common
       repository: file://../folio-common
       version: ~0.2.0
     description: A Helm chart for Kubernetes edge-users deployment
-    digest: 59b180fd3dd999eeaf35d889ed524819ad15b70edfb81487308195c7dee1559c
+    digest: 820c4f0e34876820603f61c6809c8fbe244130619920040a990438aa16161a48
     name: edge-users
     type: application
     urls:
@@ -270,9 +270,9 @@ entries:
       category: Infrastructure
     apiVersion: v2
     appVersion: 0.2.23
-    created: "2025-11-12T23:30:26.148355757Z"
+    created: "2025-11-13T00:05:28.200631923Z"
     description: A common Helm chart for FOLIO Kubernetes charts
-    digest: 0244cc75d46a4d5c770c8d57a497c777fdc789277acb7c43fda9105e772f2ce9
+    digest: ba79de78322656469c668f720fb47244b7bf6ad6d0434efad313fdb01e4c4e19
     home: https://folio.org/
     icon: https://folio.org/favicon.ico
     keywords:
@@ -293,13 +293,13 @@ entries:
   ldp:
   - apiVersion: v2
     appVersion: 2.0.0
-    created: "2025-11-12T23:30:26.148909968Z"
+    created: "2025-11-13T00:05:28.20119454Z"
     dependencies:
     - name: folio-common
       repository: file://../folio-common
       version: ~0.2.0
     description: A Helm chart for deploying LDP https://github.com/library-data-platform/ldp/tree/main
-    digest: 8c0c67e3ca710bf36bf3a03610f866f09f85ab9cb2280da8bc833e56a1aa0752
+    digest: 6e80c5bd711abd74b3b81d0508be60d5a7c8742ee2ade53163a39527bbebd1a4
     name: ldp
     type: application
     urls:
@@ -308,13 +308,13 @@ entries:
   mgr-applications:
   - apiVersion: v2
     appVersion: 1.3.0
-    created: "2025-11-12T23:30:26.149628264Z"
+    created: "2025-11-13T00:05:28.202167564Z"
     dependencies:
     - name: folio-common
       repository: file://../folio-common
       version: ~0.2.0
     description: A Helm chart for Kubernetes
-    digest: 4301fb720e7d8c4a6d8acd854fed68884ec067c8cddc85a17cadd075544bc39f
+    digest: 67399aed2e26c8d019215fb45a3d835737a2579a31b6e7a7ce972be9596b9a77
     name: mgr-applications
     type: application
     urls:
@@ -323,13 +323,13 @@ entries:
   mgr-tenant-entitlements:
   - apiVersion: v2
     appVersion: 1.3.0
-    created: "2025-11-12T23:30:26.150625327Z"
+    created: "2025-11-13T00:05:28.203474909Z"
     dependencies:
     - name: folio-common
       repository: file://../folio-common
       version: ~0.2.0
     description: A Helm chart for Kubernetes
-    digest: 93f51f4163f71be653277dde690cc5c30b9172aeac1345c1d2902672ce27d095
+    digest: ea8bfbf7f20dcad5eb7b2a75b043697e0d693556c58f5a3db1b8b13665d6a46a
     name: mgr-tenant-entitlements
     type: application
     urls:
@@ -338,13 +338,13 @@ entries:
   mgr-tenants:
   - apiVersion: v2
     appVersion: 1.3.0
-    created: "2025-11-12T23:30:26.151898778Z"
+    created: "2025-11-13T00:05:28.204236947Z"
     dependencies:
     - name: folio-common
       repository: file://../folio-common
       version: ~0.2.0
     description: A Helm chart for Kubernetes
-    digest: 9699b40bb6b008be2eb1b4079fcb63d1d4c4972be63c6364d88ec1c9c9896eef
+    digest: b5e7397428a5ca824e88a3f2a88d551f6f63f5019f8442db49159dd74f76cfcd
     name: mgr-tenants
     type: application
     urls:
@@ -353,13 +353,13 @@ entries:
   mod-aes:
   - apiVersion: v2
     appVersion: 0.0.4
-    created: "2025-11-12T23:30:26.152711931Z"
+    created: "2025-11-13T00:05:28.205007891Z"
     dependencies:
     - name: folio-common
       repository: file://../folio-common
       version: ~0.2.0
     description: A Helm chart for Kubernetes mod-aes deployment
-    digest: 2554950a3cb0e8be2e5e70ff1dd1d609ba298e558eed8434b746802383618023
+    digest: dd86c685b52cf0fef21214d10fd8c9f9ca4f46dde52b34f98c19932e3703dd8c
     name: mod-aes
     type: application
     urls:
@@ -368,13 +368,13 @@ entries:
   mod-agreements:
   - apiVersion: v2
     appVersion: 6.0.2
-    created: "2025-11-12T23:30:26.153575317Z"
+    created: "2025-11-13T00:05:28.205822887Z"
     dependencies:
     - name: folio-common
       repository: file://../folio-common
       version: ~0.2.0
     description: A Helm chart for Kubernetes mod-agreements deployment
-    digest: a5fcd4f9f5b1d8a07e81ee6ca687543086cfaacd06aa296b892ae41f9596c762
+    digest: 3b36041674d5ea2cc7401145af49530f85695ce913b40e499ca7e540889fbb3d
     name: mod-agreements
     type: application
     urls:
@@ -383,13 +383,13 @@ entries:
   mod-audit:
   - apiVersion: v2
     appVersion: 2.8.0
-    created: "2025-11-12T23:30:26.154375757Z"
+    created: "2025-11-13T00:05:28.206627584Z"
     dependencies:
     - name: folio-common
       repository: file://../folio-common
       version: ~0.2.0
     description: A Helm chart for Kubernetes mod-audit deployment
-    digest: 333563ff495cb6ec1176e9ee3a333a1b0181fd4ff63fec95c3b3e79a46225344
+    digest: 5d525461636055214da968fbbb17220dcc8c762d253d019b8925bce7d1f721be
     name: mod-audit
     type: application
     urls:
@@ -398,13 +398,13 @@ entries:
   mod-authtoken:
   - apiVersion: v2
     appVersion: 2.14.1
-    created: "2025-11-12T23:30:26.15510885Z"
+    created: "2025-11-13T00:05:28.207376928Z"
     dependencies:
     - name: folio-common
       repository: file://../folio-common
       version: ~0.2.0
     description: A Helm chart for Kubernetes mod-authtoken deployment
-    digest: a30342c1af89bc4e081fd91af3b32c6b03ab3650bf4b8a42d2df460e3bd87cb1
+    digest: 0a4136737aafb63bb08782c22f28e8882f2fa2358a1c78597eb6b1335050aa07
     name: mod-authtoken
     type: application
     urls:
@@ -413,13 +413,13 @@ entries:
   mod-batch-print:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-11-12T23:30:26.155907476Z"
+    created: "2025-11-13T00:05:28.208158172Z"
     dependencies:
     - name: folio-common
       repository: file://../folio-common
       version: ~0.2.0
     description: A Helm chart for Kubernetes mod-batch-print deployment
-    digest: bd4aa809618b963ddc3fbbe91efe0ff5f6b13b70792a4163edb1e61b9770f0bf
+    digest: 4cc1308001aa88043663100ee2dac2f105cb7d88b1f3fa29fdb0149920bb7d4c
     name: mod-batch-print
     type: application
     urls:
@@ -428,13 +428,13 @@ entries:
   mod-bulk-operations:
   - apiVersion: v2
     appVersion: 1.1.9
-    created: "2025-11-12T23:30:26.156744453Z"
+    created: "2025-11-13T00:05:28.209300226Z"
     dependencies:
     - name: folio-common
       repository: file://../folio-common
       version: ~0.2.0
     description: A Helm chart for Kubernetes mod-bulk-operations deployment
-    digest: dd3c072f0bce2b21fdb55c082243c14ed00f219da663019ee3cc20a92d349257
+    digest: 88247ae251be9f2ea994c25b6949dd9afac255e95fddd484f5190032b98aacc9
     name: mod-bulk-operations
     type: application
     urls:
@@ -443,13 +443,13 @@ entries:
   mod-calendar:
   - apiVersion: v2
     appVersion: 2.5.0
-    created: "2025-11-12T23:30:26.158031608Z"
+    created: "2025-11-13T00:05:28.210569167Z"
     dependencies:
     - name: folio-common
       repository: file://../folio-common
       version: ~0.2.0
     description: A Helm chart for Kubernetes mod-calendar deployment
-    digest: 2b06654e177758878034d40c547e8e60caca21fe11af22e6905a8e3e4f201fdb
+    digest: 96eac878a1af60fbca5e584c403c10166944b36c9a952926da10f257d16dc647
     name: mod-calendar
     type: application
     urls:
@@ -458,13 +458,13 @@ entries:
   mod-camunda:
   - apiVersion: v2
     appVersion: 1.2.0
-    created: "2025-11-12T23:30:26.15924875Z"
+    created: "2025-11-13T00:05:28.211421793Z"
     dependencies:
     - name: folio-common
       repository: file://../folio-common
       version: ~0.2.0
     description: A Helm chart Folio mod-camunda for Kubernetes
-    digest: 8ac2b7f94770b6d9d30a505ff1e73ff88450196ec44d2c8c175eb409ed2ae7aa
+    digest: 91e03ff76c19ef992ae692a36a4ac70b2148fabfb6d181d48032657042203b8f
     name: mod-camunda
     type: application
     urls:
@@ -473,13 +473,13 @@ entries:
   mod-circulation:
   - apiVersion: v2
     appVersion: 24.0.11
-    created: "2025-11-12T23:30:26.160068064Z"
+    created: "2025-11-13T00:05:28.21219919Z"
     dependencies:
     - name: folio-common
       repository: file://../folio-common
       version: ~0.2.0
     description: A Helm chart Folio for Kubernetes mod-circulation deployment
-    digest: ab9cc28f3f004d18e4b8ea67944dcb7bf5cbaadef9d155f0f8e026373a6c0f9d
+    digest: 2369236cce19acb8e1f15e86b8163ce8b25b36f1c2eed2f2717590021a24efc7
     name: mod-circulation
     type: application
     urls:
@@ -488,13 +488,13 @@ entries:
   mod-circulation-bff:
   - apiVersion: v2
     appVersion: 1.1.0
-    created: "2025-11-12T23:30:26.160875867Z"
+    created: "2025-11-13T00:05:28.212983418Z"
     dependencies:
     - name: folio-common
       repository: file://../folio-common
       version: ~0.2.0
     description: A Helm chart Folio for Kubernetes mod-circulation-bff deployment
-    digest: 4a639fd0a229a16a0153d5fbb799088cb6ce1085795cd48b7847abd658d44225
+    digest: 85c128e08b1fd618459ce760a788808e0153034d66b598338429febe8993dd86
     name: mod-circulation-bff
     type: application
     urls:
@@ -503,13 +503,13 @@ entries:
   mod-circulation-item:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-11-12T23:30:26.161691555Z"
+    created: "2025-11-13T00:05:28.213822109Z"
     dependencies:
     - name: folio-common
       repository: file://../folio-common
       version: ~0.2.0
     description: A Helm chart Folio mod-circulation-item for Kubernetes
-    digest: d8713a81785dd7aa9cfdfd258f353b56e570472573b34d65be2c5bc9d3007cc5
+    digest: 4dcd39d43837065bc7901e062dc897f2eb3a3128f5e7d5c605522a92a38de44f
     name: mod-circulation-item
     type: application
     urls:
@@ -518,13 +518,13 @@ entries:
   mod-circulation-storage:
   - apiVersion: v2
     appVersion: 17.1.7
-    created: "2025-11-12T23:30:26.162544451Z"
+    created: "2025-11-13T00:05:28.214599886Z"
     dependencies:
     - name: folio-common
       repository: file://../folio-common
       version: ~0.2.0
     description: A Helm chart for Kubernetes mod-circulation-storage deployment
-    digest: 5eb867e90d14b9b35e295e34aa3a0deab776f3127ac2daf08fa213cfac5d9060
+    digest: 2f21d37855dd11691f20056dbf230015b15a709e98beecd255e90a34c3e8d6cd
     name: mod-circulation-storage
     type: application
     urls:
@@ -533,13 +533,13 @@ entries:
   mod-codex-ekb:
   - apiVersion: v2
     appVersion: 1.10.0
-    created: "2025-11-12T23:30:26.163332718Z"
+    created: "2025-11-13T00:05:28.215357325Z"
     dependencies:
     - name: folio-common
       repository: file://../folio-common
       version: ~0.2.0
     description: A Helm chart for Kubernetes mod-codex-ekb deployment
-    digest: 978126c41385aba3c5fc4f308f643ab811035ebbc67c497bd6fe6b3650f0572f
+    digest: 073b4eea00cc5be85c705a5aa91ef6c2ce3a1fd8e783bc93466b7998012258ab
     name: mod-codex-ekb
     type: application
     urls:
@@ -548,13 +548,13 @@ entries:
   mod-codex-inventory:
   - apiVersion: v2
     appVersion: 2.3.0
-    created: "2025-11-12T23:30:26.164092992Z"
+    created: "2025-11-13T00:05:28.216115164Z"
     dependencies:
     - name: folio-common
       repository: file://../folio-common
       version: ~0.2.0
     description: A Helm chart for Kubernetes mod-codex-inventory deployment
-    digest: 46795d63e5589b27d1d3670edc69fda94521715c441ebaff9345487bad060992
+    digest: ff27fe67e26fe3f13266199176acb0c26faa27466d30a3857980184986791813
     name: mod-codex-inventory
     type: application
     urls:
@@ -563,13 +563,13 @@ entries:
   mod-codex-mux:
   - apiVersion: v2
     appVersion: 2.12.0
-    created: "2025-11-12T23:30:26.165722987Z"
+    created: "2025-11-13T00:05:28.217779651Z"
     dependencies:
     - name: folio-common
       repository: file://../folio-common
       version: ~0.2.0
     description: A Helm chart for Kubernetes mod-codex-mux deployment
-    digest: 55e50897ea4ed0afbd3a1f1feb708b4ba5af682c04404b4fcdea10ef87fbdbcf
+    digest: 68e405cb5b7c80947a8def81e4793b18c17150ab2d94888f39d7b70a75a8f005
     name: mod-codex-mux
     type: application
     urls:
@@ -578,13 +578,13 @@ entries:
   mod-configuration:
   - apiVersion: v2
     appVersion: 5.9.2
-    created: "2025-11-12T23:30:26.16657376Z"
+    created: "2025-11-13T00:05:28.218566655Z"
     dependencies:
     - name: folio-common
       repository: file://../folio-common
       version: ~0.2.0
     description: A Helm chart for Kubernetes mod-configuration deployment
-    digest: 765cbf8ea23d9ef1a654c07c20e48849dd494b66fafabbf87d4086d403cf67e2
+    digest: 83e70ed81c176d01e2dac705fb530c79e7ed4ce93930c1430fedff098209f2b0
     name: mod-configuration
     type: application
     urls:
@@ -593,13 +593,13 @@ entries:
   mod-consortia:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-11-12T23:30:26.167349083Z"
+    created: "2025-11-13T00:05:28.219351956Z"
     dependencies:
     - name: folio-common
       repository: file://../folio-common
       version: ~0.2.0
     description: A Helm chart for Kubernetes mod-consortia deployment
-    digest: a77e9576dc3738593e9135154c1bc2550cf40c526c5ae331c0f2564b6d4d7c7d
+    digest: e5a8e2fc3f00b5c2518e9cd594b214eb0870f7b8d195ee7dc3272f51ca7c0364
     name: mod-consortia
     type: application
     urls:
@@ -608,13 +608,13 @@ entries:
   mod-consortia-keycloak:
   - apiVersion: v2
     appVersion: 1.3.0
-    created: "2025-11-12T23:30:26.168112373Z"
+    created: "2025-11-13T00:05:28.220125004Z"
     dependencies:
     - name: folio-common
       repository: file://../folio-common
       version: ~0.2.0
     description: A Helm chart for Kubernetes mod-consortia-keycloak deployment
-    digest: 768d004d79f38977ceb434f35faf7e5d5c00d5046de6ab5174d683ec79204adc
+    digest: d3b6981f52d475a50b6393d3d61c03da7ba32c3b137fddb06c65c23c35e90823
     name: mod-consortia-keycloak
     type: application
     urls:
@@ -623,13 +623,13 @@ entries:
   mod-copycat:
   - apiVersion: v2
     appVersion: 1.5.0
-    created: "2025-11-12T23:30:26.168941305Z"
+    created: "2025-11-13T00:05:28.220909454Z"
     dependencies:
     - name: folio-common
       repository: file://../folio-common
       version: ~0.2.0
     description: A Helm chart for Kubernetes mod-copycat deployment
-    digest: e5e3bf7c21eb03a95128c93a419ebf270334beb8cb04ed66eb5246983227db3c
+    digest: 29c681ecb4a052bf9c1402132f42b7b27c33affdd0a26d0950b59102be57b145
     name: mod-copycat
     type: application
     urls:
@@ -638,13 +638,13 @@ entries:
   mod-courses:
   - apiVersion: v2
     appVersion: 1.4.8
-    created: "2025-11-12T23:30:26.169773523Z"
+    created: "2025-11-13T00:05:28.221677082Z"
     dependencies:
     - name: folio-common
       repository: file://../folio-common
       version: ~0.2.0
     description: A Helm chart for Kubernetes mod-courses deployment
-    digest: f8258456fb312ae8c6ae80ca3074c8b460f04ea4dded3b20b489b49dd279d81b
+    digest: 97b646e22a1be667aaba30f7c37c914ac03a3ae2e2a5fb2343342c092b8286f0
     name: mod-courses
     type: application
     urls:
@@ -653,13 +653,13 @@ entries:
   mod-data-export:
   - apiVersion: v2
     appVersion: 4.8.7
-    created: "2025-11-12T23:30:26.170600652Z"
+    created: "2025-11-13T00:05:28.222492399Z"
     dependencies:
     - name: folio-common
       repository: file://../folio-common
       version: ~0.2.0
     description: A Helm chart for Kubernetes mod-data-export deployment
-    digest: f28be3a6a68349c996456284a276e938ff48b198ba770a8d07afa07cf0f05c81
+    digest: 826dc73f9122b0db2bbc1e1d564d9ebb51a77cd012f42f5beb263cef59bd6b3a
     name: mod-data-export
     type: application
     urls:
@@ -668,13 +668,13 @@ entries:
   mod-data-export-spring:
   - apiVersion: v2
     appVersion: 3.0.2
-    created: "2025-11-12T23:30:26.171600963Z"
+    created: "2025-11-13T00:05:28.224139172Z"
     dependencies:
     - name: folio-common
       repository: file://../folio-common
       version: ~0.2.0
     description: A Helm chart for Kubernetes mod-data-export-spring deployment
-    digest: f4d2c17c3a70f7aaec5f4bc0de3d00b84c674787785fad80ee339e8f7d76cb00
+    digest: 1277066d949a01f847b18002d41be205693b2baba37978b2098016465c5f9e35
     name: mod-data-export-spring
     type: application
     urls:
@@ -683,13 +683,13 @@ entries:
   mod-data-export-worker:
   - apiVersion: v2
     appVersion: 3.1.2
-    created: "2025-11-12T23:30:26.173166984Z"
+    created: "2025-11-13T00:05:28.225040299Z"
     dependencies:
     - name: folio-common
       repository: file://../folio-common
       version: ~0.2.0
     description: A Helm chart for Kubernetes mod-data-export-worker deployment
-    digest: f9bb8af169db48a973798a6f71ec288bfa96edda38d4b3fc034f3fc48627dad4
+    digest: 9f8e6690bcea6aa8d5db0ec457a9809f6d9851679669bf3bd8855e66d207cc32
     name: mod-data-export-worker
     type: application
     urls:
@@ -698,13 +698,13 @@ entries:
   mod-data-import:
   - apiVersion: v2
     appVersion: 3.0.7
-    created: "2025-11-12T23:30:26.17411634Z"
+    created: "2025-11-13T00:05:28.225897122Z"
     dependencies:
     - name: folio-common
       repository: file://../folio-common
       version: ~0.2.0
     description: A Helm chart for Kubernetes mod-data-import deployment
-    digest: ee0260f25e28ef72d4deefbfc04dd34b41328a2c31b370673251d3025b276bf8
+    digest: 88a5bd7b0ab3e65ac12de50dacc5cb2dcd044be9dd879c524fccb3c6fe910636
     name: mod-data-import
     type: application
     urls:
@@ -713,13 +713,13 @@ entries:
   mod-dcb:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-11-12T23:30:26.175031713Z"
+    created: "2025-11-13T00:05:28.226773252Z"
     dependencies:
     - name: folio-common
       repository: file://../folio-common
       version: ~0.2.0
     description: A Helm chart Folio mod-dcb for Kubernetes
-    digest: a79e9f1dc6cdfa58f92483e5f99f72120a68580474f55a43dd13216c32da8c12
+    digest: e82e74b36ee42a85616a4d2ae45503b095e3d2f47e76447591a7805184d94a13
     name: mod-dcb
     type: application
     urls:
@@ -728,13 +728,13 @@ entries:
   mod-di-converter-storage:
   - apiVersion: v2
     appVersion: 2.1.5
-    created: "2025-11-12T23:30:26.175867157Z"
+    created: "2025-11-13T00:05:28.227541722Z"
     dependencies:
     - name: folio-common
       repository: file://../folio-common
       version: ~0.2.0
     description: A Helm chart for Kubernetes mod-di-converter-storage deployment
-    digest: 83bd6b7a13f913e5b842a2681a405283430c362d1bb2c6a457ac6c2ebe711a3d
+    digest: ae27d7a3d6a6fc5446b188bcbe676b9981ce0ffc5723973281c0ef1ebbfd1397
     name: mod-di-converter-storage
     type: application
     urls:
@@ -743,13 +743,13 @@ entries:
   mod-ebsconet:
   - apiVersion: v2
     appVersion: 2.1.1
-    created: "2025-11-12T23:30:26.176639184Z"
+    created: "2025-11-13T00:05:28.228296246Z"
     dependencies:
     - name: folio-common
       repository: file://../folio-common
       version: ~0.2.0
     description: A Helm chart for Kubernetes mod-ebsconet deployment
-    digest: 29181db4f3c9cee21d87784b418298840f907b90dad1e00a09ab38f14b2d29d5
+    digest: 678234d2edf599d1100bb43e106bf9e614f4f4064fcdd0ce0c967177f0a93f5f
     name: mod-ebsconet
     type: application
     urls:
@@ -758,13 +758,13 @@ entries:
   mod-email:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-11-12T23:30:26.177429824Z"
+    created: "2025-11-13T00:05:28.229070105Z"
     dependencies:
     - name: folio-common
       repository: file://../folio-common
       version: ~0.2.0
     description: A Helm chart for Kubernetes mod-email deployment
-    digest: 83f67d2620d8e34cbc544728b8eb7ab0741e1d0da28d9bee3c6d0d96af4f97a9
+    digest: 8fff35fdb8ef24ec2ed116b68f973baa69eb07b27658f8645c32acdd4f5ceca4
     name: mod-email
     type: application
     urls:
@@ -773,13 +773,13 @@ entries:
   mod-entities-links:
   - apiVersion: v2
     appVersion: 2.0.4
-    created: "2025-11-12T23:30:26.178254278Z"
+    created: "2025-11-13T00:05:28.229918043Z"
     dependencies:
     - name: folio-common
       repository: file://../folio-common
       version: ~0.2.0
     description: A Helm chart for Kubernetes mod-entities-links deployment
-    digest: 713fb8a97ad48db24408264f8636bb969a5a4e3fc4ec1391e7a1b7dd310f2551
+    digest: 1bd2835cd7484423d430bff9d952c109feb839eafc9b051c9d2b2558c122dadd
     name: mod-entities-links
     type: application
     urls:
@@ -788,13 +788,13 @@ entries:
   mod-erm-usage:
   - apiVersion: v2
     appVersion: 4.6.0
-    created: "2025-11-12T23:30:26.179905933Z"
+    created: "2025-11-13T00:05:28.231565187Z"
     dependencies:
     - name: folio-common
       repository: file://../folio-common
       version: ~0.2.0
     description: A Helm chart for Kubernetes mod-erm-usage deployment
-    digest: a93cdb6b96968377b34386c0f3397013024ac793f2b0193ef7a812c2b5556b0d
+    digest: 4a09c7243c78dde9405e6d1e0cbc5fe22859c897bee80088361e0e7efff59df7
     name: mod-erm-usage
     type: application
     urls:
@@ -803,13 +803,13 @@ entries:
   mod-erm-usage-harvester:
   - apiVersion: v2
     appVersion: 4.4.1
-    created: "2025-11-12T23:30:26.180827999Z"
+    created: "2025-11-13T00:05:28.232429946Z"
     dependencies:
     - name: folio-common
       repository: file://../folio-common
       version: ~0.2.0
     description: A Helm chart for Kubernetes mod-erm-usage-harvester deployment
-    digest: fda7b0d7abbd28669b896f439ca03b83de154903af41770c284b65af12db0be6
+    digest: f00e1c847467277c54c9acab016d1667926a10b5bc2df82ea6e18f49b11736af
     name: mod-erm-usage-harvester
     type: application
     urls:
@@ -818,13 +818,13 @@ entries:
   mod-eusage-reports:
   - apiVersion: v2
     appVersion: 2.0.0
-    created: "2025-11-12T23:30:26.181627877Z"
+    created: "2025-11-13T00:05:28.233230084Z"
     dependencies:
     - name: folio-common
       repository: file://../folio-common
       version: ~0.2.0
     description: A Helm chart for Kubernetes mod-eusage-reports deployment
-    digest: c0b301734b5aac37cf5f45377ab81fb257eba49f7fc822da3e1441a3c4857513
+    digest: ff9f67c350e432c59cf6ec7e6d65ebf10dbe7abb3ee0e0b70512aa78faa8b8fd
     name: mod-eusage-reports
     type: application
     urls:
@@ -833,13 +833,13 @@ entries:
   mod-event-config:
   - apiVersion: v2
     appVersion: 2.6.0
-    created: "2025-11-12T23:30:26.18241418Z"
+    created: "2025-11-13T00:05:28.234043428Z"
     dependencies:
     - name: folio-common
       repository: file://../folio-common
       version: ~0.2.0
     description: A Helm chart for Kubernetes mod-event-config deployment
-    digest: d35584b0a7892c3d9725c421b5eaae245b19bfa216e575929bac39fbc2ee10cd
+    digest: a77039c010cdd137931f8853672881a5451a78e357981b5016cd2d2fbd1967a7
     name: mod-event-config
     type: application
     urls:
@@ -848,13 +848,13 @@ entries:
   mod-feesfines:
   - apiVersion: v2
     appVersion: 19.0.0
-    created: "2025-11-12T23:30:26.183180506Z"
+    created: "2025-11-13T00:05:28.23481849Z"
     dependencies:
     - name: folio-common
       repository: file://../folio-common
       version: ~0.2.0
     description: A Helm chart for Kubernetes mod-feesfines deployment
-    digest: b970a8c87c3a0f34e832c1afa3f79277cdd642a423c64a197d5b2906b7210882
+    digest: 2db3603d3b0f7ea227c6619d2390d10eb2a2f6cd0286047ccf2fa4b634b9e13f
     name: mod-feesfines
     type: application
     urls:
@@ -863,13 +863,13 @@ entries:
   mod-finance:
   - apiVersion: v2
     appVersion: 4.8.0
-    created: "2025-11-12T23:30:26.183950949Z"
+    created: "2025-11-13T00:05:28.235600184Z"
     dependencies:
     - name: folio-common
       repository: file://../folio-common
       version: ~0.2.0
     description: A Helm chart for Kubernetes mod-finance deployment
-    digest: c87c4406ace722f353db6e57ce86702804486377ab6b001c5189b43a1c1980f8
+    digest: c411576c8fae5145afc4fdd37dc58e6f5f1df5d19962a3f6987d2367ff9bdb88
     name: mod-finance
     type: application
     urls:
@@ -878,13 +878,13 @@ entries:
   mod-finance-storage:
   - apiVersion: v2
     appVersion: 8.5.0
-    created: "2025-11-12T23:30:26.184732453Z"
+    created: "2025-11-13T00:05:28.236455224Z"
     dependencies:
     - name: folio-common
       repository: file://../folio-common
       version: ~0.2.0
     description: A Helm chart for Kubernetes mod-finance-storage deployment
-    digest: 2d412df5402b9830709d94ef3d90305bc47b170bea206b27d78e9e801e89dcef
+    digest: bc78cafe06afea0825bc33e4889d075cbca8e8900c1fba31f2dea6cd943c8e1c
     name: mod-finance-storage
     type: application
     urls:
@@ -893,13 +893,13 @@ entries:
   mod-finc-config:
   - apiVersion: v2
     appVersion: 6.1.0
-    created: "2025-11-12T23:30:26.185863735Z"
+    created: "2025-11-13T00:05:28.23789071Z"
     dependencies:
     - name: folio-common
       repository: file://../folio-common
       version: ~0.2.0
     description: A Helm chart for Kubernetes mod-finc-config deployment
-    digest: bd1bed6317b5143fb41c140df25fd1ee081c51e2d372a2bc7309c25035bebad3
+    digest: af8dc5a836b2a3b499ca770d7aa56ecca95483176c4a2db1f7a0df450a2633ab
     name: mod-finc-config
     type: application
     urls:
@@ -908,13 +908,13 @@ entries:
   mod-fqm-manager:
   - apiVersion: v2
     appVersion: 1.0.3
-    created: "2025-11-12T23:30:26.187263041Z"
+    created: "2025-11-13T00:05:28.238899366Z"
     dependencies:
     - name: folio-common
       repository: file://../folio-common
       version: ~0.2.0
     description: A Helm chart for Kubernetes mod-fqm-manager deployment
-    digest: 068d8b4c3acd15a8ae35d519bc34290e2cfbd19d11da4afe5178112566c98de9
+    digest: 50652abc87b85d5d388e7e7e871df0084bef3b2d9fe98bce776902aeec7620f5
     name: mod-fqm-manager
     type: application
     urls:
@@ -923,13 +923,13 @@ entries:
   mod-gobi:
   - apiVersion: v2
     appVersion: 2.7.1
-    created: "2025-11-12T23:30:26.188050446Z"
+    created: "2025-11-13T00:05:28.239743757Z"
     dependencies:
     - name: folio-common
       repository: file://../folio-common
       version: ~0.2.0
     description: A Helm chart for Kubernetes mod-gobi deployment
-    digest: 87262315886d01b3626bb79db370e90bfc104b351385bfab80126c87c985c296
+    digest: f5d78697dea86a4726bdd9a4ababb78d0a9685f75163287fa302a0a885027a1f
     name: mod-gobi
     type: application
     urls:
@@ -938,13 +938,13 @@ entries:
   mod-graphql:
   - apiVersion: v2
     appVersion: 1.12.0
-    created: "2025-11-12T23:30:26.188827351Z"
+    created: "2025-11-13T00:05:28.240533887Z"
     dependencies:
     - name: folio-common
       repository: file://../folio-common
       version: ~0.2.0
     description: A Helm chart for Kubernetes mod-graphql deployment
-    digest: 643c0984aae4cd2db671e8986e5ea26aec6ae878cf07d765e40d7448e62d6557
+    digest: 5fc721b805ff109c08f049a2f936b20bf03225232e567309fe4e7083df4018fa
     name: mod-graphql
     type: application
     urls:
@@ -953,13 +953,13 @@ entries:
   mod-inn-reach:
   - apiVersion: v2
     appVersion: 3.1.1
-    created: "2025-11-12T23:30:26.189650793Z"
+    created: "2025-11-13T00:05:28.241350557Z"
     dependencies:
     - name: folio-common
       repository: file://../folio-common
       version: ~0.2.0
     description: A Helm chart for Kubernetes mod-inn-reach deployment
-    digest: dc3fd6741324b58fb9c90367b29c2dcf40be0200040888606c7f2d9edf720270
+    digest: 180f75b5fa6b4e621046aeda018c9751679e4b54a77b50366cb8f047d9fab8e0
     name: mod-inn-reach
     type: application
     urls:
@@ -968,13 +968,13 @@ entries:
   mod-inventory:
   - apiVersion: v2
     appVersion: 20.1.6
-    created: "2025-11-12T23:30:26.1904985Z"
+    created: "2025-11-13T00:05:28.242167907Z"
     dependencies:
     - name: folio-common
       repository: file://../folio-common
       version: ~0.2.0
     description: A Helm chart for Kubernetes mod-invertory deployment
-    digest: 77218cd77090b263cb8f3d2568cc591469d80d1601dfdab6e4a4c8b4561764a8
+    digest: b85de65e053bcd98059aa24ae9de2be30d4ce8f93560b88539fae8f913f89c7b
     name: mod-inventory
     type: application
     urls:
@@ -983,13 +983,13 @@ entries:
   mod-inventory-storage:
   - apiVersion: v2
     appVersion: 27.0.4
-    created: "2025-11-12T23:30:26.191293288Z"
+    created: "2025-11-13T00:05:28.242989125Z"
     dependencies:
     - name: folio-common
       repository: file://../folio-common
       version: ~0.2.0
     description: A Helm chart for Kubernetes mod-inventory-storage deployment
-    digest: 2455b3e0c23b2ede01c105e442ddabf48123d598640cc08b6c49083c1e11caee
+    digest: a6e6a75f701ed74ca490847d026d031afe72fd08b1039e23e4da5ea44c34d23c
     name: mod-inventory-storage
     type: application
     urls:
@@ -998,13 +998,13 @@ entries:
   mod-inventory-update:
   - apiVersion: v2
     appVersion: 3.2.1
-    created: "2025-11-12T23:30:26.19202521Z"
+    created: "2025-11-13T00:05:28.243751343Z"
     dependencies:
     - name: folio-common
       repository: file://../folio-common
       version: ~0.2.0
     description: A Helm chart for Kubernetes mod-inventory-update deployment
-    digest: b946891345684ab016c84045408cbd798c5c6ce2f1d36d278fdbbfe997c8c175
+    digest: 81f3c399fb43ffb37ebace90a83ff92e6f098112e1c31e72fb9156f66cbc55c6
     name: mod-inventory-update
     type: application
     urls:
@@ -1013,13 +1013,13 @@ entries:
   mod-invoice:
   - apiVersion: v2
     appVersion: 5.7.2
-    created: "2025-11-12T23:30:26.193652397Z"
+    created: "2025-11-13T00:05:28.245011427Z"
     dependencies:
     - name: folio-common
       repository: file://../folio-common
       version: ~0.2.0
     description: A Helm chart for Kubernetes mod-invoice deployment
-    digest: d2534bf75b028f26401e85634742f1baf892cf30240368f7473bbf5dcf41a176
+    digest: 42e06c97b46af7d832d1637ebe43123bb158996de319ef8da7d39ac7b0148001
     name: mod-invoice
     type: application
     urls:
@@ -1028,13 +1028,13 @@ entries:
   mod-invoice-storage:
   - apiVersion: v2
     appVersion: 5.7.0
-    created: "2025-11-12T23:30:26.194490637Z"
+    created: "2025-11-13T00:05:28.246019362Z"
     dependencies:
     - name: folio-common
       repository: file://../folio-common
       version: ~0.2.0
     description: A Helm chart for Kubernetes mod-invoice-storage deployment
-    digest: af1314b5d0d0f3b00ec4c05fde936341aa80d1287a39ceff05838cd4c1181ab7
+    digest: 97c9979dd916bacbe944fb76bc8122066b9108a1d33b20c3082a6fea3cf498fb
     name: mod-invoice-storage
     type: application
     urls:
@@ -1043,13 +1043,13 @@ entries:
   mod-kb-ebsco-java:
   - apiVersion: v2
     appVersion: 4.0.0
-    created: "2025-11-12T23:30:26.195314219Z"
+    created: "2025-11-13T00:05:28.246815553Z"
     dependencies:
     - name: folio-common
       repository: file://../folio-common
       version: ~0.2.0
     description: A Helm chart for Kubernetes mod-kb-ebsco-java deployment
-    digest: 97f695c82bfe5e51e16e51b02ec9bdd4e23cc724266ca49b70f3e840a0b97b19
+    digest: 145fefae0c2362aa87e84373f882bf018f3a88f0b1a643ed8bc9db66e8f29c46
     name: mod-kb-ebsco-java
     type: application
     urls:
@@ -1058,13 +1058,13 @@ entries:
   mod-ldp:
   - apiVersion: v2
     appVersion: 1.1.2
-    created: "2025-11-12T23:30:26.196086095Z"
+    created: "2025-11-13T00:05:28.247596456Z"
     dependencies:
     - name: folio-common
       repository: file://../folio-common
       version: ~0.2.0
     description: A Helm chart for Kubernetes mod-ldp deployment
-    digest: 5563dd8d6e2b7400543b750fe5b7a12d3e611fa0a8d9c9e710ccdcade81c7f7f
+    digest: c31cab97944cd26b3a3f24850e9b115b7d2b7a0fa821523ef4e2e9700ff26dab
     name: mod-ldp
     type: application
     urls:
@@ -1073,13 +1073,13 @@ entries:
   mod-licenses:
   - apiVersion: v2
     appVersion: 5.0.2
-    created: "2025-11-12T23:30:26.196887767Z"
+    created: "2025-11-13T00:05:28.248444003Z"
     dependencies:
     - name: folio-common
       repository: file://../folio-common
       version: ~0.2.0
     description: A Helm chart for Kubernetes mod-licenses deployment
-    digest: 5787e0de67ad81b8fa6aafb125f5c5ec850ffd39fcbde2a737d59447c5a788ae
+    digest: 8c2e7eb92a59e4da6200143bfb8f13f75ac67f0de488e1cd814d3489f62009ad
     name: mod-licenses
     type: application
     urls:
@@ -1088,13 +1088,13 @@ entries:
   mod-linked-data:
   - apiVersion: v2
     appVersion: 1.0.1
-    created: "2025-11-12T23:30:26.197708924Z"
+    created: "2025-11-13T00:05:28.249250794Z"
     dependencies:
     - name: folio-common
       repository: file://../folio-common
       version: ~0.2.0
     description: A Helm chart for Kubernetes mod-linked-data deployment
-    digest: d7694afdefc054c70267a314f0ec2f56e6a34fadeebc57f9d2d9eb1698212edd
+    digest: dfb0c69aec763352e8e4bdc92fd23aca017ecc834c785943eff4e4ebbfe2ef96
     name: mod-linked-data
     type: application
     urls:
@@ -1103,13 +1103,13 @@ entries:
   mod-linked-data-import:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-11-12T23:30:26.198551432Z"
+    created: "2025-11-13T00:05:28.250126303Z"
     dependencies:
     - name: folio-common
       repository: file://../folio-common
       version: ~0.2.0
     description: A Helm chart for Kubernetes mod-linked-data-import deployment
-    digest: b43ce30599b34787c370fc06d5cbfad78947f3d2be71782a766170e0f0d3579a
+    digest: f9dbe15e11cc36d0d3a6ddf233d516b1c41b2f4ee583483bde7bab4d1bea5e93
     name: mod-linked-data-import
     type: application
     urls:
@@ -1118,13 +1118,13 @@ entries:
   mod-lists:
   - apiVersion: v2
     appVersion: 1.0.5
-    created: "2025-11-12T23:30:26.199369173Z"
+    created: "2025-11-13T00:05:28.250945356Z"
     dependencies:
     - name: folio-common
       repository: file://../folio-common
       version: ~0.2.0
     description: A Helm chart for Kubernetes mod-lists deployment
-    digest: d2095482fbc5a6c75c63cc4c97fb86eb00d3cd9438479e4d12c80eb3f695e130
+    digest: 4f02b5cbf1d4440e9e9cfb092ee3ae3bf7804aa7fc1c70ec0b9ee50fe3480e8b
     name: mod-lists
     type: application
     urls:
@@ -1133,13 +1133,13 @@ entries:
   mod-login:
   - apiVersion: v2
     appVersion: 7.10.1
-    created: "2025-11-12T23:30:26.200988894Z"
+    created: "2025-11-13T00:05:28.252534671Z"
     dependencies:
     - name: folio-common
       repository: file://../folio-common
       version: ~0.2.0
     description: A Helm chart for Kubernetes mod-login deployment
-    digest: b138b04bd4c08f6fe779a49dcff56a6c83931d907c9441b27ac4bd4b4ce94572
+    digest: 5eab8833ff0174dbad2553fc629355607f9231f129fee9e93aa0fee48ab77eba
     name: mod-login
     type: application
     urls:
@@ -1148,13 +1148,13 @@ entries:
   mod-login-keycloak:
   - apiVersion: v2
     appVersion: 1.3.0
-    created: "2025-11-12T23:30:26.201818167Z"
+    created: "2025-11-13T00:05:28.253329229Z"
     dependencies:
     - name: folio-common
       repository: file://../folio-common
       version: ~0.2.0
     description: A Helm chart for Kubernetes mod-login-keycloak deployment
-    digest: aaa4d4cc0296bfa73b2376895de114eb3c8ced9d6a86c939dd9c3723d5a9ff12
+    digest: 6e77fc64dc6c13abb09d706d17c100492c82efd4b67dfecb7b4910159a23ea91
     name: mod-login-keycloak
     type: application
     urls:
@@ -1163,13 +1163,13 @@ entries:
   mod-login-saml:
   - apiVersion: v2
     appVersion: 2.7.2
-    created: "2025-11-12T23:30:26.202613877Z"
+    created: "2025-11-13T00:05:28.25417393Z"
     dependencies:
     - name: folio-common
       repository: file://../folio-common
       version: ~0.2.0
     description: A Helm chart for Kubernetes mod-login-saml deployment
-    digest: 8839092b586c7e7f870f4ea333b7f90537f7821937dfe3e46e8d1cf6317a2d82
+    digest: 86971bc7308b351f7cff13bc075855bdbed3241f2f27110ddfbd8f28366d26eb
     name: mod-login-saml
     type: application
     urls:
@@ -1178,13 +1178,13 @@ entries:
   mod-marc-migrations:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-11-12T23:30:26.203407183Z"
+    created: "2025-11-13T00:05:28.254973378Z"
     dependencies:
     - name: folio-common
       repository: file://../folio-common
       version: ~0.2.0
     description: A Helm chart for Kubernetes mod-marc-migrations deployment
-    digest: d528381c40642abdf911932ee796307cae0897de88442b804df1c9e1c7331784
+    digest: 63833dc2ba5f144da33f5dcbc5a78d7c286ae070a31cccc15ed1822bbc346cc3
     name: mod-marc-migrations
     type: application
     urls:
@@ -1193,13 +1193,13 @@ entries:
   mod-marccat:
   - apiVersion: v2
     appVersion: 2.2.5
-    created: "2025-11-12T23:30:26.204180271Z"
+    created: "2025-11-13T00:05:28.255773556Z"
     dependencies:
     - name: folio-common
       repository: file://../folio-common
       version: ~0.2.0
     description: A Helm chart for Kubernetes mod-marccat deployment
-    digest: d6ada493548b16bd52b2142ab16e5959de27d2050fcfa675f6de5ba9cffc73fe
+    digest: d849b9e8b309ba6b8ca193c84861e1ee43e4b58b71bc1b2d2d2c910c0328ce63
     name: mod-marccat
     type: application
     urls:
@@ -1208,13 +1208,13 @@ entries:
   mod-mosaic:
   - apiVersion: v2
     appVersion: 1.1.1
-    created: "2025-11-12T23:30:26.204952838Z"
+    created: "2025-11-13T00:05:28.256537498Z"
     dependencies:
     - name: folio-common
       repository: file://../folio-common
       version: ~0.2.0
     description: A Helm chart for Kubernetes mod-mosaic deployment
-    digest: c49f2fff4370a77b8d974016099e8554b003059b808ffbb9032833af142887cc
+    digest: 0730a5b11547a4e3b93969607eca880df709ae934362f4219491f001df047395
     name: mod-mosaic
     type: application
     urls:
@@ -1223,13 +1223,13 @@ entries:
   mod-ncip:
   - apiVersion: v2
     appVersion: 1.14.4
-    created: "2025-11-12T23:30:26.20575459Z"
+    created: "2025-11-13T00:05:28.257298012Z"
     dependencies:
     - name: folio-common
       repository: file://../folio-common
       version: ~0.2.0
     description: A Helm chart for Kubernetes mod-ncip deployment
-    digest: 7a1e1b696cc3b8992e43d2790d8d7d3dad8ec8fa2fafe217b0bbb0db27e41f65
+    digest: ce9a29e4f650cc63821cf157ed181d791e7f343fdeda3f1d1fca95ae04b9e4c2
     name: mod-ncip
     type: application
     urls:
@@ -1238,13 +1238,13 @@ entries:
   mod-notes:
   - apiVersion: v2
     appVersion: 5.1.0
-    created: "2025-11-12T23:30:26.206713464Z"
+    created: "2025-11-13T00:05:28.258237129Z"
     dependencies:
     - name: folio-common
       repository: file://../folio-common
       version: ~0.2.0
     description: A Helm chart for Kubernetes mod-notes deployment
-    digest: cb511e6ce3dacbf05be5769f9f0453d3f9beb26f19fe109c414adf853358bded
+    digest: 949ba54cbc29784f447ab3b734c91a63160fca30b8036c73a8895e30c6ffc014
     name: mod-notes
     type: application
     urls:
@@ -1253,13 +1253,13 @@ entries:
   mod-notify:
   - apiVersion: v2
     appVersion: 3.1.0
-    created: "2025-11-12T23:30:26.208100046Z"
+    created: "2025-11-13T00:05:28.259787661Z"
     dependencies:
     - name: folio-common
       repository: file://../folio-common
       version: ~0.2.0
     description: A Helm chart for Kubernetes mod-notify deployment
-    digest: 7432acf72cce546694009c710ce9b021be5712185352bf160c86c178e4ecce30
+    digest: 05b86fb1cd2f6a02ed31a1ea18da0e34a2e5e363296b38738f447886e88e2697
     name: mod-notify
     type: application
     urls:
@@ -1268,13 +1268,13 @@ entries:
   mod-oa:
   - apiVersion: v2
     appVersion: 2.0.0
-    created: "2025-11-12T23:30:26.208935581Z"
+    created: "2025-11-13T00:05:28.260649434Z"
     dependencies:
     - name: folio-common
       repository: file://../folio-common
       version: ~0.2.0
     description: A Helm chart for Kubernetes mod-oa deployment
-    digest: f82130c65104e9315019d45a93a0f1caffad0dce1945a01cf5a791f1985c31e6
+    digest: 17d46ac6ddfa36d43af60cd83f8d8b3e238a983c7a83b70963eb9e4af4814942
     name: mod-oa
     type: application
     urls:
@@ -1283,13 +1283,13 @@ entries:
   mod-oai-pmh:
   - apiVersion: v2
     appVersion: 3.12.8
-    created: "2025-11-12T23:30:26.209771546Z"
+    created: "2025-11-13T00:05:28.261515045Z"
     dependencies:
     - name: folio-common
       repository: file://../folio-common
       version: ~0.2.0
     description: A Helm chart for Kubernetes mod-oai-pmh deployment
-    digest: f1fd9799d1f28f143ec903e885d563c1a46a79c151f0591d604d5de8e7e4712b
+    digest: 0b60fd24201789bd755e6e1ce65756cfa31bd1d721be716bbe8fe64a4e7e43fd
     name: mod-oai-pmh
     type: application
     urls:
@@ -1298,13 +1298,13 @@ entries:
   mod-okapi-facade:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-11-12T23:30:26.210584158Z"
+    created: "2025-11-13T00:05:28.262291399Z"
     dependencies:
     - name: folio-common
       repository: file://../folio-common
       version: ~0.2.0
     description: A Helm chart for Kubernetes mod-okapi-facade deployment
-    digest: 879a614fb718be8a505579ef080d4418b6a963dd2f2324f045c5d6e44f82dc2a
+    digest: 35dc411ca4d666b09dbb10985a47a5ecc3152d5a7b8201226dbb81d324476200
     name: mod-okapi-facade
     type: application
     urls:
@@ -1313,13 +1313,13 @@ entries:
   mod-orders:
   - apiVersion: v2
     appVersion: 12.7.1
-    created: "2025-11-12T23:30:26.211395517Z"
+    created: "2025-11-13T00:05:28.263097469Z"
     dependencies:
     - name: folio-common
       repository: file://../folio-common
       version: ~0.2.0
     description: A Helm chart for Kubernetes mod-orders deployment
-    digest: 4f018dc53f7ec7a4d01cd17e9d7dec9955702493e6be9c9b373eaaf5395e805d
+    digest: 73ff68b790a31000ff26dc3cd909ae460b821391533831b5f304f495194da563
     name: mod-orders
     type: application
     urls:
@@ -1328,13 +1328,13 @@ entries:
   mod-orders-storage:
   - apiVersion: v2
     appVersion: 13.6.0
-    created: "2025-11-12T23:30:26.21217105Z"
+    created: "2025-11-13T00:05:28.263922995Z"
     dependencies:
     - name: folio-common
       repository: file://../folio-common
       version: ~0.2.0
     description: A Helm chart for Kubernetes mod-orders-storage deployment
-    digest: d638d2d06a5c7306c8744138b0e5ac834ab84a51329fc387801300c50e74ea51
+    digest: 342b52f74246eda1546f2e939e2e681936a8866e1104c5a2c12c30bc970b37f2
     name: mod-orders-storage
     type: application
     urls:
@@ -1343,13 +1343,13 @@ entries:
   mod-organizations:
   - apiVersion: v2
     appVersion: 1.8.0
-    created: "2025-11-12T23:30:26.212927176Z"
+    created: "2025-11-13T00:05:28.264669643Z"
     dependencies:
     - name: folio-common
       repository: file://../folio-common
       version: ~0.2.0
     description: A Helm chart for Kubernetes mod-organizations deployment
-    digest: 2178ebc431f01864c962d1141bec15b34e37c4ea36bf38ecb21eea63b72612f5
+    digest: df44810958df27ac8ad7cbfdb0e34488b69f8fb042f22500f98959ca4fda27c4
     name: mod-organizations
     type: application
     urls:
@@ -1358,13 +1358,13 @@ entries:
   mod-organizations-storage:
   - apiVersion: v2
     appVersion: 4.6.0
-    created: "2025-11-12T23:30:26.214106659Z"
+    created: "2025-11-13T00:05:28.266195923Z"
     dependencies:
     - name: folio-common
       repository: file://../folio-common
       version: ~0.2.0
     description: A Helm chart for Kubernetes mod-organizations-storage deployment
-    digest: 3516740510e37cf2320d9fc7b515902116c34547b5cd06aa1661de45bc829f99
+    digest: 6284621ccc8662b856d45aa7f60bb0b7c43b12b304e9e786b2eafa7ba5599844
     name: mod-organizations-storage
     type: application
     urls:
@@ -1373,13 +1373,13 @@ entries:
   mod-password-validator:
   - apiVersion: v2
     appVersion: 3.1.0
-    created: "2025-11-12T23:30:26.215387173Z"
+    created: "2025-11-13T00:05:28.267142754Z"
     dependencies:
     - name: folio-common
       repository: file://../folio-common
       version: ~0.2.0
     description: A Helm chart for Kubernetes mod-password-validator deployment
-    digest: 60aeb8530397a94ed5c6bf36a179aeef9a1862aa7eaa3d661fa50b835eeb7f42
+    digest: fece59ba8802e59672548fdc2028dbb4dbdd8a1718f536133066280679d6ee2f
     name: mod-password-validator
     type: application
     urls:
@@ -1388,13 +1388,13 @@ entries:
   mod-patron:
   - apiVersion: v2
     appVersion: 6.0.0
-    created: "2025-11-12T23:30:26.216143571Z"
+    created: "2025-11-13T00:05:28.267915803Z"
     dependencies:
     - name: folio-common
       repository: file://../folio-common
       version: ~0.2.0
     description: A Helm chart for Kubernetes mod-patron deployment
-    digest: b73c83db8d411f615b7957cf5455e8754d42dd6a268b68f03980669eabc6cc0e
+    digest: e059eb90c2b1a918e21cf38867dfadb133800658300fcb73cb0c6dc766927047
     name: mod-patron
     type: application
     urls:
@@ -1403,13 +1403,13 @@ entries:
   mod-patron-blocks:
   - apiVersion: v2
     appVersion: 1.9.0
-    created: "2025-11-12T23:30:26.216969136Z"
+    created: "2025-11-13T00:05:28.26868322Z"
     dependencies:
     - name: folio-common
       repository: file://../folio-common
       version: ~0.2.0
     description: A Helm chart for Kubernetes mod-patron-blocks deployment
-    digest: 86646e40a3ed8b55713c9ce6142578fbcc183708aac5abe91fa5c6b767e9fe0d
+    digest: 2f4d3605629b51367b5612c29dab267bae4068c31217b25f28e9c63531e6c38d
     name: mod-patron-blocks
     type: application
     urls:
@@ -1418,13 +1418,13 @@ entries:
   mod-permissions:
   - apiVersion: v2
     appVersion: 6.4.0
-    created: "2025-11-12T23:30:26.217751021Z"
+    created: "2025-11-13T00:05:28.269562807Z"
     dependencies:
     - name: folio-common
       repository: file://../folio-common
       version: ~0.2.0
     description: A Helm chart mod-permissions for Kubernetes mod-permissions deployment
-    digest: 7ca8156ac46a2ec15afcaf733ac251f51b2e90477603902b693c9ba8b62cca05
+    digest: 9dbc71616ba8695306bf959d482fab0ff6cd8127014c51804456c1de761323cf
     name: mod-permissions
     type: application
     urls:
@@ -1433,13 +1433,13 @@ entries:
   mod-pubsub:
   - apiVersion: v2
     appVersion: 2.11.3
-    created: "2025-11-12T23:30:26.218564144Z"
+    created: "2025-11-13T00:05:28.270402999Z"
     dependencies:
     - name: folio-common
       repository: file://../folio-common
       version: ~0.2.0
     description: A Helm chart for Kubernetes mod-pubsub deployment
-    digest: 0ab74df119e89c2a232ca8103ceb7f1e7607fee47269c92da36f497a2416e802
+    digest: 5029af8af3cfd7fb5863c00b50c80efe57aac24f1576100543b82aaaad86824f
     name: mod-pubsub
     type: application
     urls:
@@ -1448,13 +1448,13 @@ entries:
   mod-quick-marc:
   - apiVersion: v2
     appVersion: 5.0.1
-    created: "2025-11-12T23:30:26.219356918Z"
+    created: "2025-11-13T00:05:28.271206955Z"
     dependencies:
     - name: folio-common
       repository: file://../folio-common
       version: ~0.2.0
     description: A Helm chart for Kubernetes mod-quick-marc deployment
-    digest: 3341be63d9d1863f0cb3713dd247a624596f2c202286f4de7a932072c798319c
+    digest: 498f96f5d5a0f245a175061ab4e13370cf04bfd31b6d7cb592f419f7c731b6e1
     name: mod-quick-marc
     type: application
     urls:
@@ -1463,13 +1463,13 @@ entries:
   mod-reading-room:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-11-12T23:30:26.220134405Z"
+    created: "2025-11-13T00:05:28.272011893Z"
     dependencies:
     - name: folio-common
       repository: file://../folio-common
       version: ~0.2.0
     description: A Helm chart for Kubernetes mod-remote-storage deployment
-    digest: ffca826ad4d3c99d43cdcc794dfce12fcc4b6139825d726aff3d7e962043d5f5
+    digest: 3f4a95c743391a2dc42695625164ddc3512d81b2fcdd5bfe28e3bf17143fbd73
     name: mod-reading-room
     type: application
     urls:
@@ -1478,13 +1478,13 @@ entries:
   mod-record-specifications:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-11-12T23:30:26.221505947Z"
+    created: "2025-11-13T00:05:28.273453534Z"
     dependencies:
     - name: folio-common
       repository: file://../folio-common
       version: ~0.2.0
     description: A Helm chart for Kubernetes mod-record-specifications deployment
-    digest: fbc67d0ae602055161bbba07e57da91c9d379250cf9cb4b7c837ef87262561ee
+    digest: 525f8d989c47a5f32e3f0ad04d3aff3d19d43b49a96855df5997d5c269c797c9
     name: mod-record-specifications
     type: application
     urls:
@@ -1493,13 +1493,13 @@ entries:
   mod-remote-storage:
   - apiVersion: v2
     appVersion: 3.0.1
-    created: "2025-11-12T23:30:26.222748927Z"
+    created: "2025-11-13T00:05:28.274489908Z"
     dependencies:
     - name: folio-common
       repository: file://../folio-common
       version: ~0.2.0
     description: A Helm chart for Kubernetes mod-remote-storage deployment
-    digest: 8fd4df29b6fdcdccda484151d5f0371e9b55b0b30a33ed8751eeb6fda4c19927
+    digest: e1a76b698ce891e6f61c77dfcb6936903139e461d64456c1d6efe70f4bc0b462
     name: mod-remote-storage
     type: application
     urls:
@@ -1508,13 +1508,13 @@ entries:
   mod-reporting:
   - apiVersion: v2
     appVersion: 1.0.3
-    created: "2025-11-12T23:30:26.223673777Z"
+    created: "2025-11-13T00:05:28.275386806Z"
     dependencies:
     - name: folio-common
       repository: file://../folio-common
       version: ~0.2.0
     description: A Helm chart for Kubernetes
-    digest: 4c9a129693249e2dcb9c226080d1881ca80749dba0244005d2eaded7e1f6e1b1
+    digest: 003dcce112c937656b599d91079610ec4968378990148da99b3e2a168221b96b
     name: mod-reporting
     type: application
     urls:
@@ -1523,13 +1523,13 @@ entries:
   mod-requests-mediated:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-11-12T23:30:26.224467103Z"
+    created: "2025-11-13T00:05:28.276175844Z"
     dependencies:
     - name: folio-common
       repository: file://../folio-common
       version: ~0.2.0
     description: A Helm chart for Kubernetes mod-requests-mediated deployment
-    digest: 3dddcfcfedc4054ba8e54d845c829d2b9e1a7668a70383053963082aa1792f67
+    digest: 7bdaff8d2bb51add98dd91b48b05844fb5e1e75cdad9c2f18c1e07c359f5120b
     name: mod-requests-mediated
     type: application
     urls:
@@ -1538,13 +1538,13 @@ entries:
   mod-roles-keycloak:
   - apiVersion: v2
     appVersion: 1.3.0
-    created: "2025-11-12T23:30:26.225260038Z"
+    created: "2025-11-13T00:05:28.276945065Z"
     dependencies:
     - name: folio-common
       repository: file://../folio-common
       version: ~0.2.0
     description: A Helm chart for Kubernetes mod-roles-keycloak deployment
-    digest: 2b155757c01e9aed3afc919729e959252e378150e113266adac805eaffdf0f5e
+    digest: 7fe89700f7bea61ecba567117463ed3eebccee0bcc0d61421afc42dd39851def
     name: mod-roles-keycloak
     type: application
     urls:
@@ -1553,13 +1553,13 @@ entries:
   mod-rtac:
   - apiVersion: v2
     appVersion: 3.5.0
-    created: "2025-11-12T23:30:26.226022627Z"
+    created: "2025-11-13T00:05:28.277743811Z"
     dependencies:
     - name: folio-common
       repository: file://../folio-common
       version: ~0.2.0
     description: A Helm chart for Kubernetes mod-rtac dependencies
-    digest: 41a3c05c74a65632322f61af37beddf9a81abcf04f3d2efc017773b4492a7279
+    digest: 65d95035ba78bcb78a5a2a1519759fcc7de4b33fd5f8161b1f9fe86415975177
     name: mod-rtac
     type: application
     urls:
@@ -1568,13 +1568,13 @@ entries:
   mod-scheduler:
   - apiVersion: v2
     appVersion: 1.2.0
-    created: "2025-11-12T23:30:26.226789774Z"
+    created: "2025-11-13T00:05:28.27852788Z"
     dependencies:
     - name: folio-common
       repository: file://../folio-common
       version: ~0.2.0
     description: A Helm chart for Kubernetes mod-scheduler deployment
-    digest: b1ea47da1b35c4e3778a131efb14247fd24609306ba8fb5a6751348f19d34266
+    digest: 4268cf13d3375a7720c0cf569be2a0825dff2f5ec6e949410ab61e30502e6260
     name: mod-scheduler
     type: application
     urls:
@@ -1583,13 +1583,13 @@ entries:
   mod-search:
   - apiVersion: v2
     appVersion: 3.0.5
-    created: "2025-11-12T23:30:26.227628344Z"
+    created: "2025-11-13T00:05:28.279375246Z"
     dependencies:
     - name: folio-common
       repository: file://../folio-common
       version: ~0.2.0
     description: A Helm chart for Kubernetes deployment
-    digest: af39335ce26fde81d01f6c76d3e86e16db9c69dbc9fada1530961711c371536c
+    digest: 503a5054ef3ee0472c389e23fed3f9c3394d8f2489a1078d888f417d6b8609e8
     name: mod-search
     type: application
     urls:
@@ -1598,13 +1598,13 @@ entries:
   mod-sender:
   - apiVersion: v2
     appVersion: 1.11.0
-    created: "2025-11-12T23:30:26.22894824Z"
+    created: "2025-11-13T00:05:28.280899161Z"
     dependencies:
     - name: folio-common
       repository: file://../folio-common
       version: ~0.2.0
     description: A Helm chart for Kubernetes mod-sender deployment
-    digest: fe437bd7d086f0ce3d78f9407b68f31e76f691ed52c10f44adeb7a448c6b6c22
+    digest: 345dbf67c8b46cd0488b939105f65567ab33fbffe59951742ed0d0b745f86af3
     name: mod-sender
     type: application
     urls:
@@ -1613,13 +1613,13 @@ entries:
   mod-serials-management:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-11-12T23:30:26.230102911Z"
+    created: "2025-11-13T00:05:28.281748011Z"
     dependencies:
     - name: folio-common
       repository: file://../folio-common
       version: ~0.2.0
     description: A Helm chart for Kubernetes mod-serials-management deployment
-    digest: c7a10a19c20d53e7122abbd98e33d8df0580472afc8b9a9a70f5eddfdc5890d2
+    digest: 68e922d0674619116c3218161c8520cc3850c7799aa2afba2c15ef9f5aee127b
     name: mod-serials-management
     type: application
     urls:
@@ -1628,13 +1628,13 @@ entries:
   mod-service-interaction:
   - apiVersion: v2
     appVersion: 3.0.2
-    created: "2025-11-12T23:30:26.230952672Z"
+    created: "2025-11-13T00:05:28.282544101Z"
     dependencies:
     - name: folio-common
       repository: file://../folio-common
       version: ~0.2.0
     description: A Helm chart for Kubernetes mod-service-interaction deployment
-    digest: e757dc0efbfb4fa272409c137569a5586a5b0860d3bad13e7882b348bae5312d
+    digest: 16bc95a02240845955ccc31c085ed9e79c3181d4d7cb77f386cb0bd60fa6ea0b
     name: mod-service-interaction
     type: application
     urls:
@@ -1643,13 +1643,13 @@ entries:
   mod-settings:
   - apiVersion: v2
     appVersion: 1.0.2
-    created: "2025-11-12T23:30:26.231765163Z"
+    created: "2025-11-13T00:05:28.283345843Z"
     dependencies:
     - name: folio-common
       repository: file://../folio-common
       version: ~0.2.0
     description: A Helm chart for Kubernetes mod-settings deployment
-    digest: 0ca646fd9055bae2bdcdfb3b64fcc3110c424b2d8ba81ee7df49a158b07e4b0e
+    digest: 75ce4dc44ffcb0ca39f74daa84ad80ad3f37fce1827f9ce98a6524f265fda350
     name: mod-settings
     type: application
     urls:
@@ -1658,13 +1658,13 @@ entries:
   mod-source-record-manager:
   - apiVersion: v2
     appVersion: 3.7.7
-    created: "2025-11-12T23:30:26.232613782Z"
+    created: "2025-11-13T00:05:28.284192979Z"
     dependencies:
     - name: folio-common
       repository: file://../folio-common
       version: ~0.2.0
     description: A Helm chart for Kubernetes mod-source-record-manager deployment
-    digest: 34413500c7776e69a3231a348b0328b4baa09a92a7bf8b2304a55795c3fd2c9c
+    digest: c254f3ef3331578aed78386e96dfe5a2d949eed309fcfdcf002b9cfaea88f9d4
     name: mod-source-record-manager
     type: application
     urls:
@@ -1673,13 +1673,13 @@ entries:
   mod-source-record-storage:
   - apiVersion: v2
     appVersion: 5.7.5
-    created: "2025-11-12T23:30:26.233469193Z"
+    created: "2025-11-13T00:05:28.285000341Z"
     dependencies:
     - name: folio-common
       repository: file://../folio-common
       version: ~0.2.0
     description: A Helm chart for Kubernetes mod-source-record-storage deployment
-    digest: 31aa3403efa124e187d521e98d74157c6b432fad3293fecb16c11aedf57891dc
+    digest: 5927d8192d305ed5b498898585e778ab0b13e810392d843808f421abc2cc6bc4
     name: mod-source-record-storage
     type: application
     urls:
@@ -1688,13 +1688,13 @@ entries:
   mod-tags:
   - apiVersion: v2
     appVersion: 2.1.0
-    created: "2025-11-12T23:30:26.234265956Z"
+    created: "2025-11-13T00:05:28.285766236Z"
     dependencies:
     - name: folio-common
       repository: file://../folio-common
       version: ~0.2.0
     description: A Helm chart for Kubernetes mod-tags deployment
-    digest: 5b3037cd665baf1edb4ffe6044d98ab0e4636857ac301412e017cb0ea19935ac
+    digest: 929a6424b89da814095da18e4af341b9dddcb9f43db948ac29eeb54fd844a6f7
     name: mod-tags
     type: application
     urls:
@@ -1703,13 +1703,13 @@ entries:
   mod-template-engine:
   - apiVersion: v2
     appVersion: 1.19.1
-    created: "2025-11-12T23:30:26.235030127Z"
+    created: "2025-11-13T00:05:28.286754813Z"
     dependencies:
     - name: folio-common
       repository: file://../folio-common
       version: ~0.2.0
     description: A Helm chart for Kubernetes mod-template-engine deployment
-    digest: 3059ddc9432b0cb954c496b9cd58f4f1055a818f30def119231e1e945ac3d401
+    digest: 19a798b70207e820ce478917c8db478bdfea3c981481a371c46da80255951363
     name: mod-template-engine
     type: application
     urls:
@@ -1718,13 +1718,13 @@ entries:
   mod-tlr:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-11-12T23:30:26.236822079Z"
+    created: "2025-11-13T00:05:28.288131213Z"
     dependencies:
     - name: folio-common
       repository: file://../folio-common
       version: ~0.2.0
     description: A Helm chart for Kubernetes mod-tlr deployment
-    digest: d2d799d662a896a05c05f106627a7821cf750bdc56d0793a26e1ffe0d1084166
+    digest: 2bbdb39c2ea8d138d19e8ff95d527f355a95bfa4fc7259088976c256d3dd3182
     name: mod-tlr
     type: application
     urls:
@@ -1733,13 +1733,13 @@ entries:
   mod-user-import:
   - apiVersion: v2
     appVersion: 3.8.0
-    created: "2025-11-12T23:30:26.23763442Z"
+    created: "2025-11-13T00:05:28.288917265Z"
     dependencies:
     - name: folio-common
       repository: file://../folio-common
       version: ~0.2.0
     description: A Helm chart for Kubernetes mod-user-import deployment
-    digest: 29c47eda7ca1309242ea42d0861a447c9f426178fa3e27b7e41ee55f2e87d65c
+    digest: d26c5eb0f3727fdb69fc40ff63660497d0fb4d3ea155ffb51c300cbe31d5ea5d
     name: mod-user-import
     type: application
     urls:
@@ -1748,13 +1748,13 @@ entries:
   mod-users:
   - apiVersion: v2
     appVersion: 19.2.2
-    created: "2025-11-12T23:30:26.238455287Z"
+    created: "2025-11-13T00:05:28.289749754Z"
     dependencies:
     - name: folio-common
       repository: file://../folio-common
       version: ~0.2.0
     description: A Helm chart Folio mod-users for Kubernetes mod-users deployment
-    digest: e49a2429dd0897c001098131144942aa140021cc6f055f699dc0dacc54806d38
+    digest: 71f24b63fbd79c2af40b838d3ede2973fafa784680eb0b1a9235925a27b52ab7
     name: mod-users
     type: application
     urls:
@@ -1763,13 +1763,13 @@ entries:
   mod-users-bl:
   - apiVersion: v2
     appVersion: 7.6.0
-    created: "2025-11-12T23:30:26.239211925Z"
+    created: "2025-11-13T00:05:28.290500491Z"
     dependencies:
     - name: folio-common
       repository: file://../folio-common
       version: ~0.2.0
     description: A Helm chart for Kubernetes mod-users-bl deployment
-    digest: 840c9f624927af24c52b5b237e8f218dc9f4ba58eb7257de5cfdc705c7e83262
+    digest: 053dad6c579d2f05db796d48d0d611c449e9dc5849ed81ff10dd598f3a031836
     name: mod-users-bl
     type: application
     urls:
@@ -1778,13 +1778,13 @@ entries:
   mod-users-keycloak:
   - apiVersion: v2
     appVersion: 1.3.0
-    created: "2025-11-12T23:30:26.239984743Z"
+    created: "2025-11-13T00:05:28.291282616Z"
     dependencies:
     - name: folio-common
       repository: file://../folio-common
       version: ~0.2.0
     description: A Helm chart for Kubernetes mod-users-keycloak deployment
-    digest: 56cd83ebc9f0955c220a4571ae7d53ec1c9b31dbefb4cf8b4743cd2a64628462
+    digest: b8861179f0c9ab5606841d4eb4f76ee27d9f0e04e3bd35a8ae9fb9ef5d99b622
     name: mod-users-keycloak
     type: application
     urls:
@@ -1793,13 +1793,13 @@ entries:
   mod-workflow:
   - apiVersion: v2
     appVersion: 1.1.7
-    created: "2025-11-12T23:30:26.240825627Z"
+    created: "2025-11-13T00:05:28.292109424Z"
     dependencies:
     - name: folio-common
       repository: file://../folio-common
       version: ~0.2.0
     description: A Helm chart Folio mod-workflow for Kubernetes
-    digest: 6002a8a7649a953c574b0bf59d4afe050840616c7cd9d6183ddb5fcc73f5a77b
+    digest: e05ab3688f54793e77efd076e38139f33d5a4b6d54daeb631c0e356d4e2f3e52
     name: mod-workflow
     type: application
     urls:
@@ -1808,13 +1808,13 @@ entries:
   mod-z3950:
   - apiVersion: v2
     appVersion: 3.3.5
-    created: "2025-11-12T23:30:26.241586633Z"
+    created: "2025-11-13T00:05:28.292860111Z"
     dependencies:
     - name: folio-common
       repository: file://../folio-common
       version: ~0.2.0
     description: A Helm chart for Kubernetes mod-z3950 deployment
-    digest: debcc0352098b2e629b5255dcf51f858ff4d5de774b77010f7f192c44fc8233d
+    digest: 7fcad90c96fc97d08d1dbfe2babe8615ac32d2f3095d07a567ab0567b07f5bca
     name: mod-z3950
     type: application
     urls:
@@ -1823,13 +1823,13 @@ entries:
   okapi:
   - apiVersion: v2
     appVersion: 5.1.2
-    created: "2025-11-12T23:30:26.242424051Z"
+    created: "2025-11-13T00:05:28.293697659Z"
     dependencies:
     - name: folio-common
       repository: file://../folio-common
       version: ~0.2.0
     description: A Helm chart for Kubernetes Okapi deployment
-    digest: b585f93a56a0be8e55715dbf43bcf1009aebd5c370a996520db70f1d3724be69
+    digest: d3fd0b15623a958ab044c5242f4c5106a9174c19eb1d9d8482780042ed3010fc
     name: okapi
     type: application
     urls:
@@ -1838,16 +1838,16 @@ entries:
   platform-complete:
   - apiVersion: v2
     appVersion: 2.23.0
-    created: "2025-11-12T23:30:26.24391651Z"
+    created: "2025-11-13T00:05:28.295209025Z"
     dependencies:
     - name: folio-common
       repository: file://../folio-common
       version: ~0.2.0
     description: A Helm chart for Kubernetes platform-complete (stripes) deployment
-    digest: 0930c9d12ff721ae86a0cc52edfc04ee9c9acd0ae2ec1838a59a18c9f3af89a5
+    digest: b2cdee09cc9a3f0afc987f06e03f445fcabafcddc5c5769619adad7e12c10684
     name: platform-complete
     type: application
     urls:
     - https://sul-dlss.github.io/folio-eureka-helm/packaged_charts/platform-complete-2.23.14.tgz
     version: 2.23.14
-generated: "2025-11-12T23:30:26.132442742Z"
+generated: "2025-11-13T00:05:28.184249305Z"
